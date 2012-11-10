@@ -130,7 +130,7 @@ namespace Wowzapp.Wowzapp_XamlTypeInfo
 
         private object Activate_9_ItemDetailPage() { return new global::Wowzapp.ItemDetailPage(); }
 
-        private object Activate_10_HomePage() { return new global::Wowzapp.Views.HomePage.HomePage(); }
+        private object Activate_13_HomePage() { return new global::Wowzapp.Views.HomePage.HomePage(); }
 
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(string typeName)
@@ -228,9 +228,38 @@ namespace Wowzapp.Wowzapp_XamlTypeInfo
                 xamlType = userType;
                 break;
 
+            case "Windows.UI.Color":
+                userType = new global::Wowzapp.Wowzapp_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Windows.UI.Color), GetXamlTypeByName("System.ValueType"));
+                userType.AddMemberName("A");
+                AddToMapOfTypeToStandardName(typeof(global::System.Byte),
+                                                   "Byte");
+                userType.AddMemberName("B");
+                AddToMapOfTypeToStandardName(typeof(global::System.Byte),
+                                                   "Byte");
+                userType.AddMemberName("G");
+                AddToMapOfTypeToStandardName(typeof(global::System.Byte),
+                                                   "Byte");
+                userType.AddMemberName("R");
+                AddToMapOfTypeToStandardName(typeof(global::System.Byte),
+                                                   "Byte");
+                xamlType = userType;
+                break;
+
+            case "System.ValueType":
+                userType = new global::Wowzapp.Wowzapp_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::System.ValueType), GetXamlTypeByName("Object"));
+                xamlType = userType;
+                break;
+
+            case "Byte":
+                userType = new global::Wowzapp.Wowzapp_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::System.Byte), GetXamlTypeByName("System.ValueType"));
+                AddToMapOfTypeToStandardName(typeof(global::System.Byte),
+                                                   "Byte");
+                xamlType = userType;
+                break;
+
             case "Wowzapp.Views.HomePage.HomePage":
                 userType = new global::Wowzapp.Wowzapp_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Wowzapp.Views.HomePage.HomePage), GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_10_HomePage;
+                userType.Activator = Activate_13_HomePage;
                 xamlType = userType;
                 break;
 
@@ -269,6 +298,46 @@ namespace Wowzapp.Wowzapp_XamlTypeInfo
             var that = (global::Wowzapp.Common.RichTextColumns)instance;
             that.ColumnTemplate = (global::Windows.UI.Xaml.DataTemplate)Value;
         }
+        private object get_4_Color_A(object instance)
+        {
+            var that = (global::Windows.UI.Color)instance;
+            return that.A;
+        }
+        private void set_4_Color_A(object instance, object Value)
+        {
+            var that = (global::Windows.UI.Color)instance;
+            that.A = (global::System.Byte)Value;
+        }
+        private object get_5_Color_B(object instance)
+        {
+            var that = (global::Windows.UI.Color)instance;
+            return that.B;
+        }
+        private void set_5_Color_B(object instance, object Value)
+        {
+            var that = (global::Windows.UI.Color)instance;
+            that.B = (global::System.Byte)Value;
+        }
+        private object get_6_Color_G(object instance)
+        {
+            var that = (global::Windows.UI.Color)instance;
+            return that.G;
+        }
+        private void set_6_Color_G(object instance, object Value)
+        {
+            var that = (global::Windows.UI.Color)instance;
+            that.G = (global::System.Byte)Value;
+        }
+        private object get_7_Color_R(object instance)
+        {
+            var that = (global::Windows.UI.Color)instance;
+            return that.R;
+        }
+        private void set_7_Color_R(object instance, object Value)
+        {
+            var that = (global::Windows.UI.Color)instance;
+            that.R = (global::System.Byte)Value;
+        }
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
@@ -302,6 +371,30 @@ namespace Wowzapp.Wowzapp_XamlTypeInfo
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_3_RichTextColumns_ColumnTemplate;
                 xamlMember.Setter = set_3_RichTextColumns_ColumnTemplate;
+                break;
+            case "Windows.UI.Color.A":
+                userType = (global::Wowzapp.Wowzapp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Windows.UI.Color");
+                xamlMember = new global::Wowzapp.Wowzapp_XamlTypeInfo.XamlMember(this, "A", "Byte");
+                xamlMember.Getter = get_4_Color_A;
+                xamlMember.Setter = set_4_Color_A;
+                break;
+            case "Windows.UI.Color.B":
+                userType = (global::Wowzapp.Wowzapp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Windows.UI.Color");
+                xamlMember = new global::Wowzapp.Wowzapp_XamlTypeInfo.XamlMember(this, "B", "Byte");
+                xamlMember.Getter = get_5_Color_B;
+                xamlMember.Setter = set_5_Color_B;
+                break;
+            case "Windows.UI.Color.G":
+                userType = (global::Wowzapp.Wowzapp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Windows.UI.Color");
+                xamlMember = new global::Wowzapp.Wowzapp_XamlTypeInfo.XamlMember(this, "G", "Byte");
+                xamlMember.Getter = get_6_Color_G;
+                xamlMember.Setter = set_6_Color_G;
+                break;
+            case "Windows.UI.Color.R":
+                userType = (global::Wowzapp.Wowzapp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Windows.UI.Color");
+                xamlMember = new global::Wowzapp.Wowzapp_XamlTypeInfo.XamlMember(this, "R", "Byte");
+                xamlMember.Getter = get_7_Color_R;
+                xamlMember.Setter = set_7_Color_R;
                 break;
             }
             return xamlMember;

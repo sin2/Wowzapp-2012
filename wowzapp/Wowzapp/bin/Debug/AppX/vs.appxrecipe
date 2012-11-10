@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>SIN2-PC</Machine>
-    <WindowsUser>Sinthushan</WindowsUser>
+    <Machine>DIGIFLARE-PC-16</Machine>
+    <WindowsUser>Ankit</WindowsUser>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <RegisteredManifestChecksum>4FB3BA65EDB9776B240A6339F2B39047D0477C9AE8A046BD246996D9A5D53120</RegisteredManifestChecksum>
@@ -13,92 +13,96 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Sinthushan\Documents\BitBucket\wowzapp\Wowzapp\Wowzapp\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Projects\Resources\wowzapp\wowzapp\Wowzapp\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-11-10T23:29:36.112</Modified>
+      <Modified>2012-11-10T19:41:20.425</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Sinthushan\Documents\BitBucket\wowzapp\Wowzapp\Wowzapp\bin\Debug\Wowzapp.exe">
+    <AppxPackagedFile Include="C:\Projects\Resources\wowzapp\wowzapp\Wowzapp\bin\Debug\Wowzapp.exe">
       <PackagePath>Wowzapp.exe</PackagePath>
-      <Modified>2012-11-11T00:00:27.228</Modified>
+      <Modified>2012-11-10T19:41:20.237</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sinthushan\Documents\BitBucket\wowzapp\Wowzapp\Wowzapp\bin\Debug\Wowzapp.pdb">
+    <AppxPackagedFile Include="C:\Projects\Resources\wowzapp\wowzapp\Wowzapp\bin\Debug\Wowzapp.pdb">
       <PackagePath>Wowzapp.pdb</PackagePath>
-      <Modified>2012-11-11T00:00:27.186</Modified>
+      <Modified>2012-11-10T19:41:20.222</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sinthushan\Documents\BitBucket\wowzapp\Wowzapp\Wowzapp\Assemblies\GalaSoft.MvvmLight.Extras.Win8.dll">
+    <AppxPackagedFile Include="C:\Projects\Resources\wowzapp\wowzapp\Wowzapp\Assemblies\GalaSoft.MvvmLight.Extras.Win8.dll">
       <PackagePath>GalaSoft.MvvmLight.Extras.Win8.dll</PackagePath>
-      <Modified>2012-09-28T03:14:03.184</Modified>
+      <Modified>2012-11-10T19:18:31.250</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sinthushan\Documents\BitBucket\wowzapp\Wowzapp\Wowzapp\Assemblies\GalaSoft.MvvmLight.Win8.dll">
+    <AppxPackagedFile Include="C:\Projects\Resources\wowzapp\wowzapp\Wowzapp\Assemblies\GalaSoft.MvvmLight.Win8.dll">
       <PackagePath>GalaSoft.MvvmLight.Win8.dll</PackagePath>
-      <Modified>2012-09-28T03:14:03.207</Modified>
+      <Modified>2012-11-10T19:18:31.265</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sinthushan\Documents\BitBucket\wowzapp\Wowzapp\Wowzapp\Assemblies\Microsoft.Practices.ServiceLocation.dll">
+    <AppxPackagedFile Include="C:\Projects\Resources\wowzapp\wowzapp\Wowzapp\Assemblies\Microsoft.Practices.ServiceLocation.dll">
       <PackagePath>Microsoft.Practices.ServiceLocation.dll</PackagePath>
-      <Modified>2012-09-28T03:14:03.034</Modified>
+      <Modified>2012-11-10T19:18:31.281</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sinthushan\Documents\BitBucket\wowzapp\Wowzapp\Wowzapp\Assets\Logo.png">
+    <AppxPackagedFile Include="C:\Projects\Resources\wowzapp\wowzapp\Wowzapp\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-03-16T00:42:52.000</Modified>
+      <Modified>2012-11-10T19:18:31.281</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sinthushan\Documents\BitBucket\wowzapp\Wowzapp\Wowzapp\Assets\SmallLogo.png">
+    <AppxPackagedFile Include="C:\Projects\Resources\wowzapp\wowzapp\Wowzapp\Assets\SmallLogo.png">
       <PackagePath>Assets\SmallLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-03-16T00:42:52.000</Modified>
+      <Modified>2012-11-10T19:18:31.281</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sinthushan\Documents\BitBucket\wowzapp\Wowzapp\Wowzapp\Assets\SplashScreen.png">
+    <AppxPackagedFile Include="C:\Projects\Resources\wowzapp\wowzapp\Wowzapp\Assets\SplashScreen.png">
       <PackagePath>Assets\SplashScreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-03-16T00:42:52.000</Modified>
+      <Modified>2012-11-10T19:18:31.281</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sinthushan\Documents\BitBucket\wowzapp\Wowzapp\Wowzapp\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Projects\Resources\wowzapp\wowzapp\Wowzapp\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-03-16T00:42:52.000</Modified>
+      <Modified>2012-11-10T19:18:31.281</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sinthushan\Documents\BitBucket\wowzapp\Wowzapp\Wowzapp\Assets\LightGray.png">
+    <AppxPackagedFile Include="C:\Projects\Resources\wowzapp\wowzapp\Wowzapp\Assets\LightGray.png">
       <PackagePath>Assets\LightGray.png</PackagePath>
-      <Modified>2011-12-13T02:08:56.000</Modified>
+      <Modified>2012-11-10T19:18:31.281</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sinthushan\Documents\BitBucket\wowzapp\Wowzapp\Wowzapp\Assets\MediumGray.png">
+    <AppxPackagedFile Include="C:\Projects\Resources\wowzapp\wowzapp\Wowzapp\Assets\MediumGray.png">
       <PackagePath>Assets\MediumGray.png</PackagePath>
-      <Modified>2011-12-13T02:08:56.000</Modified>
+      <Modified>2012-11-10T19:18:31.281</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sinthushan\Documents\BitBucket\wowzapp\Wowzapp\Wowzapp\Assets\DarkGray.png">
+    <AppxPackagedFile Include="C:\Projects\Resources\wowzapp\wowzapp\Wowzapp\Assets\DarkGray.png">
       <PackagePath>Assets\DarkGray.png</PackagePath>
-      <Modified>2011-12-13T02:08:56.000</Modified>
+      <Modified>2012-11-10T19:18:31.281</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sinthushan\Documents\BitBucket\wowzapp\Wowzapp\Wowzapp\bin\Debug\App.xaml">
+    <AppxPackagedFile Include="C:\Projects\Resources\wowzapp\wowzapp\Wowzapp\bin\Debug\App.xaml">
       <PackagePath>App.xaml</PackagePath>
-      <Modified>2012-11-10T23:35:49.897</Modified>
+      <Modified>2012-11-10T19:41:16.014</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sinthushan\Documents\BitBucket\wowzapp\Wowzapp\Wowzapp\bin\Debug\Common\StandardStyles.xaml">
+    <AppxPackagedFile Include="C:\Projects\Resources\wowzapp\wowzapp\Wowzapp\bin\Debug\Common\StandardStyles.xaml">
       <PackagePath>Common\StandardStyles.xaml</PackagePath>
-      <Modified>2012-06-26T20:19:20.000</Modified>
+      <Modified>2012-11-10T19:18:31.312</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sinthushan\Documents\BitBucket\wowzapp\Wowzapp\Wowzapp\bin\Debug\GroupedItemsPage.xaml">
+    <AppxPackagedFile Include="C:\Projects\Resources\wowzapp\wowzapp\Wowzapp\bin\Debug\GroupedItemsPage.xaml">
       <PackagePath>GroupedItemsPage.xaml</PackagePath>
-      <Modified>2012-11-10T21:46:44.720</Modified>
+      <Modified>2012-11-10T19:18:31.328</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sinthushan\Documents\BitBucket\wowzapp\Wowzapp\Wowzapp\bin\Debug\GroupDetailPage.xaml">
+    <AppxPackagedFile Include="C:\Projects\Resources\wowzapp\wowzapp\Wowzapp\bin\Debug\GroupDetailPage.xaml">
       <PackagePath>GroupDetailPage.xaml</PackagePath>
-      <Modified>2012-11-10T21:46:44.736</Modified>
+      <Modified>2012-11-10T19:18:31.312</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sinthushan\Documents\BitBucket\wowzapp\Wowzapp\Wowzapp\bin\Debug\ItemDetailPage.xaml">
+    <AppxPackagedFile Include="C:\Projects\Resources\wowzapp\wowzapp\Wowzapp\bin\Debug\ItemDetailPage.xaml">
       <PackagePath>ItemDetailPage.xaml</PackagePath>
-      <Modified>2012-11-10T21:46:44.752</Modified>
+      <Modified>2012-11-10T19:18:31.328</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sinthushan\Documents\BitBucket\wowzapp\Wowzapp\Wowzapp\bin\Debug\Views\HomePage\HomePage.xaml">
+    <AppxPackagedFile Include="C:\Projects\Resources\wowzapp\wowzapp\Wowzapp\bin\Debug\Styles\CustomStyles.xaml">
+      <PackagePath>Styles\CustomStyles.xaml</PackagePath>
+      <Modified>2012-11-10T19:41:18.581</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projects\Resources\wowzapp\wowzapp\Wowzapp\bin\Debug\Views\HomePage\HomePage.xaml">
       <PackagePath>Views\HomePage\HomePage.xaml</PackagePath>
-      <Modified>2012-11-11T00:00:25.586</Modified>
+      <Modified>2012-11-10T19:18:31.343</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sinthushan\Documents\BitBucket\wowzapp\Wowzapp\Wowzapp\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Projects\Resources\wowzapp\wowzapp\Wowzapp\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2012-11-10T23:29:35.956</Modified>
+      <Modified>2012-11-10T19:41:20.347</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
