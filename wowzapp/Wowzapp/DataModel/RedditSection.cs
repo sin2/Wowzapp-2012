@@ -31,6 +31,6 @@ namespace App2.DataModel
         public string PubDate;
         public string Description;
         public string MediaTitle;
-        public string MediaImage;
+        public string MediaThumbnail;
     }
 }

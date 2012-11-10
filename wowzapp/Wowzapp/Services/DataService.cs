@@ -23,6 +23,7 @@ namespace App2.Services
             try
             {
                 XDocument xmlDoc = XDocument.Load(url);
+                XNamespace NS = "http://search.yahoo.com/mrss/";
                 RedditSection redditSection =
                 (
                     from stats in xmlDoc.Descendants("channel")
@@ -31,21 +32,21 @@ namespace App2.Services
                         Title = stats.Element("title").Value,
                         Link = stats.Element("link").Value,
                         Description = stats.Element("link").Value,
-                        //SecImage = (from player in xmlDoc.Descendants("image")
+                        //SecImage = (SectionImage)(from player in xmlDoc.Descendants("image")
                         //            select new SectionImage
                         //            {
-
                         //            }),
                         Items = (from item in xmlDoc.Descendants("item")
-                                   select new Item
+                                   
+                                 select new Item
                                    {
                                        Title = item.Element("title").Value,
                                        Link = item.Element("link").Value,
                                        GUID = item.Element("guid").Value,
                                        PubDate = item.Element("pubDate").Value,
                                        Description = item.Element("description").Value,
-                                       MediaTitle = item.Element("media:title").Value,
-                                       MediaImage = item.Element("media:image").Value,
+                                       MediaTitle = xmlDoc.Descendants(NS + "title").First().Value,
+                                       MediaThumbnail = xmlDoc.Descendants(NS + "thumbnail").ToString(),
                                    }).ToList<Item>()
                     }
                 ).First();
