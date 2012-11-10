@@ -3,7 +3,8 @@
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:Wowzapp"
-    xmlns:localData="using:Wowzapp.Data">
+    xmlns:localData="using:Wowzapp.Data"
+    xmlns:common="using:Wowzapp.Common">
 
     <Application.Resources>
         <ResourceDictionary>
@@ -17,7 +18,7 @@
             </ResourceDictionary.MergedDictionaries>
 
             <!-- Application-specific resources -->
-
+            <common:MvvmViewModelLocator x:Key="Locator" />
             <x:String x:Key="AppName">Wowzapp</x:String>
         </ResourceDictionary>
     </Application.Resources>

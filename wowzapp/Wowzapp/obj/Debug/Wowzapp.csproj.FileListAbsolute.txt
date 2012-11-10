@@ -31,3 +31,11 @@ C:\Users\Sinthushan\Documents\BitBucket\wowzapp\Wowzapp\Wowzapp\obj\Debug\resour
 C:\Users\Sinthushan\Documents\BitBucket\wowzapp\Wowzapp\Wowzapp\obj\Debug\pri.resfiles
 C:\Users\Sinthushan\Documents\BitBucket\wowzapp\Wowzapp\Wowzapp\obj\Debug\LanguageQualifiers.txt
 C:\Users\Sinthushan\Documents\BitBucket\wowzapp\Wowzapp\Wowzapp\obj\Debug\ProjectArchitectures.txt
+C:\Users\Sinthushan\Documents\BitBucket\wowzapp\Wowzapp\Wowzapp\obj\Debug\Wowzapp.csprojResolveAssemblyReference.cache
+C:\Users\Sinthushan\Documents\BitBucket\wowzapp\Wowzapp\Wowzapp\obj\Debug\Views\HomePage\HomePage.g.i.cs
+C:\Users\Sinthushan\Documents\BitBucket\wowzapp\Wowzapp\Wowzapp\obj\Debug\Views\HomePage\HomePage.g.cs
+C:\Users\Sinthushan\Documents\BitBucket\wowzapp\Wowzapp\Wowzapp\obj\Debug\Views\HomePage\HomePage.xaml
+C:\Users\Sinthushan\Documents\BitBucket\wowzapp\Wowzapp\Wowzapp\bin\Debug\GalaSoft.MvvmLight.Extras.Win8.dll
+C:\Users\Sinthushan\Documents\BitBucket\wowzapp\Wowzapp\Wowzapp\bin\Debug\GalaSoft.MvvmLight.Win8.dll
+C:\Users\Sinthushan\Documents\BitBucket\wowzapp\Wowzapp\Wowzapp\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Sinthushan\Documents\BitBucket\wowzapp\Wowzapp\Wowzapp\obj\Debug\Wowzapp.csproj.GenerateResource.Cache

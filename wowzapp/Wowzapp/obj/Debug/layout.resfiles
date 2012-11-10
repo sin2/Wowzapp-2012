@@ -10,3 +10,4 @@ Common\StandardStyles.xaml
 GroupDetailPage.xaml
 GroupedItemsPage.xaml
 ItemDetailPage.xaml
+Views\HomePage\HomePage.xaml

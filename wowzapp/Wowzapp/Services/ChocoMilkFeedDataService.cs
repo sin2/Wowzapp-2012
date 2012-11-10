@@ -8,8 +8,8 @@ namespace Wowzapp.Services
 {
     class ChocoMilkFeedDataService : IFeedDataService
     {
-
-        private void GetSection(){
+        void IFeedDataService.GetSection() 
+        {
         
         }
     }
