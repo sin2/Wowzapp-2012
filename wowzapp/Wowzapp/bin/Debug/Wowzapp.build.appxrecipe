@@ -19,6 +19,15 @@
     <AppxPackagedFile Include="C:\Users\Sinthushan\Documents\BitBucket\wowzapp\Wowzapp\Wowzapp\bin\Debug\Wowzapp.pdb">
       <PackagePath>Wowzapp.pdb</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sinthushan\Documents\BitBucket\wowzapp\Wowzapp\Wowzapp\Assemblies\GalaSoft.MvvmLight.Extras.Win8.dll">
+      <PackagePath>GalaSoft.MvvmLight.Extras.Win8.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sinthushan\Documents\BitBucket\wowzapp\Wowzapp\Wowzapp\Assemblies\GalaSoft.MvvmLight.Win8.dll">
+      <PackagePath>GalaSoft.MvvmLight.Win8.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sinthushan\Documents\BitBucket\wowzapp\Wowzapp\Wowzapp\Assemblies\Microsoft.Practices.ServiceLocation.dll">
+      <PackagePath>Microsoft.Practices.ServiceLocation.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sinthushan\Documents\BitBucket\wowzapp\Wowzapp\Wowzapp\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
@@ -58,6 +67,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sinthushan\Documents\BitBucket\wowzapp\Wowzapp\Wowzapp\bin\Debug\ItemDetailPage.xaml">
       <PackagePath>ItemDetailPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sinthushan\Documents\BitBucket\wowzapp\Wowzapp\Wowzapp\bin\Debug\Views\HomePage\HomePage.xaml">
+      <PackagePath>Views\HomePage\HomePage.xaml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sinthushan\Documents\BitBucket\wowzapp\Wowzapp\Wowzapp\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
