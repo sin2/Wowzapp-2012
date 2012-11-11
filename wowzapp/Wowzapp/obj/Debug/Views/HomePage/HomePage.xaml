@@ -13,9 +13,31 @@
     </Page.Resources>
 
     <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
-        <TextBlock>
-            Home Page
-        </TextBlock>
+        <Grid Style="{StaticResource LayoutRootStyle}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid 
+                x:Name="Header"
+                Margin="130,100,0,0">
+                <TextBlock Style="{StaticResource HeaderTextStyle}">Testing</TextBlock>
+            </Grid>
+            <SemanticZoom Grid.Row="1">
+                <SemanticZoom.ZoomedInView>
+                    <GridView
+                        x:Name="gridViewFull">
+                        
+                    </GridView>
+                </SemanticZoom.ZoomedInView>
+                <SemanticZoom.ZoomedOutView>
+                    <GridView
+                        x:Name="gridViewZoom">
+                        
+                    </GridView>
+                </SemanticZoom.ZoomedOutView>
+            </SemanticZoom>            
+        </Grid>
     </Grid>
 </Page>
 
